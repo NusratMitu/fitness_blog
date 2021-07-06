@@ -5,10 +5,6 @@ h1 {
   font-size: xx-large;
   font-weight: 900;
 }
-p {
-  padding-right: 20px;
-  padding-bottom: 30px;
-}
 .mastered_color {
   color: rgb(233, 161, 6);
 }
@@ -32,8 +28,7 @@ p {
   background-image: linear-gradient(rgb(235, 162, 4), rgb(243, 219, 110));
   text-decoration: none;
   color: aliceblue;
-  padding: 10px 10px;
-  margin-right: 10%;
+  padding: 20px 20px;
   border-radius: 20px;
 }
 a:hover {
@@ -41,10 +36,41 @@ a:hover {
 
   color: rgb(48, 24, 1);
 }
+.top_section p {
+  padding-bottom: 10%;
+}
 .about_me {
   background-image: url(images/shapes/7.png);
   background-repeat: no-repeat;
   margin: 0;
   padding-top: 5%;
   padding-right: 20%;
+  background-size: cover;
+}
+.about_me p {
+  padding-right: 20px;
+  padding-bottom: 10%;
+}
+.about_recipies {
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.recipie_details {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.recipie_item {
+  display: block;
+  width: 30%;
+  padding: 10px;
+  margin-right: 5%;
+  border-radius: 25px;
+  border: 3px hidden solid;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.recipie_item img {
+  width: 100%;
+  border: hidden;
+  border-radius: 25px;
 }
