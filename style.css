@@ -90,7 +90,6 @@ a:hover {
 #social_network {
   border-radius: 25px;
   box-shadow: 10px 5px 40px rgb(211, 208, 208);
-
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -123,18 +122,18 @@ a:hover {
   opacity: 0.5;
 }
 
-.fa-facebook {
+.fa_facebook {
   background-color: white;
   border: 4px rgb(177, 171, 171) double;
   color: #074adb;
 }
-.fa-google {
+.fa_google {
   background-color: white;
   border: 4px rgb(177, 171, 171) double;
   color: crimson;
 }
 
-.fa-linkedin {
+.fa_linkedin {
   background-color: white;
   border: 4px rgb(177, 171, 171) double;
   color: rgb(78, 111, 172);
