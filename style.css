@@ -78,8 +78,32 @@ a:hover {
 }
 .recipe_item img {
   width: 100%;
-  border: hidden;
   border-radius: 25px;
+}
+
+.bottom_section {
+  padding-bottom: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-right: 4%;
+}
+#social_network {
+  border-radius: 25px;
+  box-shadow: 10px 5px 40px rgb(211, 208, 208);
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.count_num {
+  font-size: xx-large;
+  font-weight: 900 bolder;
+  color: #000;
+}
+.subscriber_count {
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: left;
 }
 
 .footer {
